@@ -22,9 +22,24 @@ const Navbar = () => {
         window.scrollTo(0, 0);
       }}
     >
-      <img src={logo} alt="logo" className="w-9
-      h-9 object-contain" />
+      <img src={logo} alt="logo" className="max-w-[100px] object-contain" />
+      <p className="text-white text-[18px] font-bold cursor-pointer">Jaïr Pietersz <span className="sm:block hidden"> | Front End Developer</span></p>
     </Link>
+     <ul className="list-none hidden sm:flex flex-row gap-10">
+      {navLinks.map((Link) => (
+        <li
+          key={Link.id}
+          className={`${
+            active === Link.title
+              ? "text-white"
+              : "text-secondary"
+          }   hover:text-white text-[18px]
+              font-medium  cursor-pointer`}
+          >
+          <a href={`#${Link.id}`}>{Link.title}</a>
+        </li>
+      ))}
+      </ul>
     </div>
   </nav>
   )
