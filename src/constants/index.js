@@ -116,55 +116,43 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Media Designer",
+      company_name: "Livewall",
+      icon: javascript,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 6 - Januari 1 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "In these five months we managed to come with a digital concept for livewall",
+        "Our group picked a digital substitution case, in where we made some research on making a pet recommendation website",
+        "This goal with this website, was to reduce the difficulties that people have with taking care of a pet",
+        "So by providing them with their best pet, we reduce the chances that someone might abandon theirs.",
+        "I helped with researching and also designing,by prototyping and coding the recommendation part of this website",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Media Designer",
+      company_name: "Maaike Girardin",
+      icon: javascript,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "February 9 - September 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "In these seven months we had the opportunity to work with Maaike Girardin, an upcoming Artist",
+        "We had to come up with a solution for her older website, since she did not really like the design",
+        "For this, we had to do interviews, online research and also dive into designining prototyping and coding.",
+        "We delivered a pretty nice project to this artist, which included some of her latest albums",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "PWA Developer",
+      company_name: "Fontys",
+      icon: javascript,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "February 7  - March 16 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "For the start of our fourth semester , we had the opportunity to work on a fitness gaming application for our PWA Developing skills",
+        "I collaborated with my colleague (Ivan) to bring a fun but also effective solution in motivating students our age to do more chores",
+        "This is necessary to keep a balance in our daily lives. We managed this by doing online research on motivation and also the effect of gaming",
+        "We both managed with the design and also coding part of the application, such as making vibration, notifications and also phone compatability.",
       ],
     },
   ];
@@ -198,16 +186,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Petica",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Petica was a website that we made in our third semester for our client LiveWall.",
       tags: [
         {
-          name: "react",
+          name: "Javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MySQL",
           color: "green-text-gradient",
         },
         {
