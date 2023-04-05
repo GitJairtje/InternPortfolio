@@ -81,10 +81,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -108,13 +104,22 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
+    {
+      title: "Media Designer",
+      company_name: "Maaike Girardin",
+      icon: javascript,
+      iconBg: "#383E56",
+      date: "February 9 - September 2022",
+      points: [
+        "In these seven months we had the opportunity to work with Maaike Girardin, an upcoming Artist",
+        "We had to come up with a solution for her older website, since she did not really like the design",
+        "For this, we had to do interviews, online research and also dive into designining prototyping and coding.",
+        "We delivered a pretty nice project to this artist, which included some of her latest albums",
+      ],
+    },
     {
       title: "Media Designer",
       company_name: "Livewall",
@@ -127,19 +132,6 @@ import {
         "This goal with this website, was to reduce the difficulties that people have with taking care of a pet",
         "So by providing them with their best pet, we reduce the chances that someone might abandon theirs.",
         "I helped with researching and also designing,by prototyping and coding the recommendation part of this website",
-      ],
-    },
-    {
-      title: "Media Designer",
-      company_name: "Maaike Girardin",
-      icon: javascript,
-      iconBg: "#383E56",
-      date: "February 9 - September 2022",
-      points: [
-        "In these seven months we had the opportunity to work with Maaike Girardin, an upcoming Artist",
-        "We had to come up with a solution for her older website, since she did not really like the design",
-        "For this, we had to do interviews, online research and also dive into designining prototyping and coding.",
-        "We delivered a pretty nice project to this artist, which included some of her latest albums",
       ],
     },
     {
