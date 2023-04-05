@@ -33,12 +33,12 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.red-gradient {
-  background: #f34444;
-  background: linear-gradient(-90deg, #ef3a0d 0%, rgba(60, 51, 80, 0) 100%);
+.blue-gradient {
+  background: #290172;
+  background: linear-gradient(-90deg, #290172 0%, rgba(245, 231, 35, 0.678) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #ef3a0d 0%,
+    #290172 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
